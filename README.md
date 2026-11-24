@@ -1,52 +1,40 @@
-# Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+FarmBridge – A Smart Direct Farmer-to-Consumer Marketplace
 
-## Problem Title
-SIH 26033: Multiple intermediaries reduce farmers earnings and increase consumer prices.
+1. Project Description
 
-## Problem Creater's Organization
-Ministry of Consumer Affairs, Food & Public Distribution
+FarmBridge is a smart digital marketplace that connects farmers directly with consumers. It reduces the involvement of multiple intermediaries, helping farmers earn better profits while providing fresh agricultural products to consumers at affordable prices.
 
-## Theme
-Agriculture, FoodTech & Rural Development
+2. Main Features
 
-## Problem Description
-Expected Solution: Create a digital marketplace that:
+- Direct Farmer-to-Consumer Connection
+- Farmer Registration
+- Product Listing and Price Details
+- Smart Price Matching
+- Buyer Order Management
+- Shared Transportation
+- Direct Delivery
 
-• Connects farmers/FPOs directly with consumers and bulk buyers.
-• Provides logistics support.
-• Uses AI for demand forecasting and route optimization.
+3. Technical Approach
 
-Benefits:
+Farmers upload their crop details and prices through the FarmBridge application. The smart matching system connects farmers with suitable buyers. Buyers can place orders, and shared transportation helps deliver products directly to consumers.
 
-• Better prices for farmers.
-• Lower prices for consumers.
-• Reduced supply chain inefficiencies.
+4. Expected Benefits
 
-## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+- Better earnings for farmers.
+- Affordable prices for consumers.
+- Reduced intermediaries.
+- Fresh agricultural products.
+- Efficient transportation and delivery.
 
-## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+5. Technologies Used
 
-## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+- HTML
+- CSS
+- JavaScript
 
-## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+6. Technical Workflow
 
-## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+Farmers → FarmBridge Application → Smart Matching Engine → Buyers & Logistics → Direct Delivery
+
+<img width="1920" height="1080" alt="Screenshot 2026-11-24 220300" src="https://github.com/user-attachments/assets/fe776ad1-8074-47ce-89e7-00140a2e4b50" />
+
