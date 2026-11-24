@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmBridge - Farmer Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 FarmBridge</h1>
+        <p>Connecting Farmers Directly to Consumers</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Fresh From Farmers</h2>
+        <p>Buy Fresh Products Directly From Farmers</p>
+        <a href="#products" class="btn">Explore Products</a>
+    </section>
+
+    <section id="products">
+        <h2>Available Products</h2>
+
+        <div class="products">
+
+            <div class="card">
+                <div class="emoji">🍅</div>
+                <h3>Tomato</h3>
+                <p>₹30 / kg</p>
+                <button onclick="buyProduct('Tomato')">Buy Now</button>
+            </div>
+
+            <div class="card">
+                <div class="emoji">🥔</div>
+                <h3>Potato</h3>
+                <p>₹25 / kg</p>
+                <button onclick="buyProduct('Potato')">Buy Now</button>
+            </div>
+
+            <div class="card">
+                <div class="emoji">🥕</div>
+                <h3>Carrot</h3>
+                <p>₹40 / kg</p>
+                <button onclick="buyProduct('Carrot')">Buy Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TECHNICAL APPROACH DIAGRAM -->
+
+<section id="technical">
+    <h2>Technical Approach</h2>
+    <p class="tech-subtitle">
+        How FarmBridge Connects Farmers and Consumers
+    </p>
+
+    <div class="flow-container">
+
+        <div class="flow-box farmer">
+            <h3>🌾 FARMERS</h3>
+            <p>Upload Crop Details and Prices</p>
+        </div>
+
+        <div class="arrow">⬇</div>
+
+        <div class="flow-box application">
+            <h3>💻 FARMBRIDGE APPLICATION</h3>
+            <p>Registration and Product Listings</p>
+        </div>
+
+        <div class="arrow">⬇</div>
+
+        <div class="flow-box matching">
+            <h3>⚙️ SMART MATCHING ENGINE</h3>
+            <p>Price Matching • Buyer Matching • Demand Matching</p>
+        </div>
+
+        <div class="arrow">⬇</div>
+
+        <div class="flow-box logistics">
+            <h3>🚚 BUYERS + LOGISTICS</h3>
+            <p>Order Management and Shared Transportation</p>
+        </div>
+
+        <div class="arrow">⬇</div>
+
+        <div class="flow-box delivery">
+            <h3>📦 DIRECT DELIVERY</h3>
+            <p>Fair Farmer Earnings • Affordable Consumer Prices</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- END OF TECHNICAL APPROACH -->
+
+    <section id="about">
+        <h2>About FarmBridge</h2>
+        <p>FarmBridge connects farmers directly with consumers.
+        It reduces middlemen, improves farmer income and provides
+        affordable fresh products to customers.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: farmbridge@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 FarmBridge | Smart Agriculture Marketplace</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
